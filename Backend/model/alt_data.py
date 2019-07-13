@@ -13,7 +13,7 @@ except FileNotFoundError:
 for i in range(1, 99):
     print("i=", i)
     op = 0
-    savepath = ["training/healthy/", "training/parkinson/", "testing/healthy/", "testing/parkinson/"]
+    savepath = ["t_data1/healthy/", "t_data1/parkinson/", "testing/healthy/", "testing/parkinson/"]
     f2o = filename / str(i).zfill(5) / (str(i).zfill(5)+"__1_1.svc")
     try:
         f = open(f2o, 'r')
@@ -46,18 +46,10 @@ for i in range(1, 99):
     print(tag[1])
     if tag[1] == 'H':
         hcounter += 1
-        if hcounter >= 29:
-            op = 2
-            print("healthy, test:", savepath[op])
-        else:
-            op = 0
-            print("healthy, train:", savepath[op])
+        op = 0
+        print("healthy, train:", savepath[op])
     elif tag[1] == 'P':
         pcounter += 1
-        if pcounter >= 29:
-            op = 3
-            print("parkinson's, test:", savepath[op])
-        else:
-            op = 1
-            print("parkinson's, train:", savepath[op])
+        op = 1
+        print("parkinson's, train:", savepath[op])
     im.save(savepath[op]+str(i).zfill(5)+"x.png", "PNG")
