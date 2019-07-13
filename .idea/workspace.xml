@@ -2,86 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7240fe5-37c1-4ac4-8b38-b9008dc138cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/model/alt_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/model/color2bw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/splishsplashiamtrash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/splishsplashiamtrash.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/PaHaW/tagsfile.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/datatoimage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/datatoimage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00001.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00002.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00002.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00003.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00004.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00004.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00005.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00005.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00006.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00007.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00007.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00008.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00008.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00009.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00009.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00010.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00013.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00013.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00014.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00014.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00015.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00015.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00016.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00017.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00017.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00018.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00018.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00019.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00019.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00020.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00020.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00022.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00022.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00023.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00023.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00024.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00025.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00025.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00026.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00027.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00027.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00028.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00029.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00029.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00030.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00030.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00031.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00032.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00032.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00033.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00034.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00034.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00036.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00036.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00039.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00039.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00040.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00040.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00041.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00043.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00044.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00044.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00048.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00048.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00049.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00049.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00051.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00051.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00052.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00052.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00053.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00053.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00054.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00054.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00055.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00055.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00057.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00057.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00060.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00060.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00062.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00062.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00066.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00066.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00067.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00067.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00069.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00069.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00070.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00070.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00071.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00071.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00072.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00072.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00073.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00073.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00074.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00074.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00075.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00075.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00076.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00076.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00077.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00077.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00078.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00078.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00082.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00082.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00083.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00083.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00084.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00084.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00085.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00085.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00087.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00087.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00090.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00090.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00091.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00091.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00092.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00092.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00094.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00094.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00095.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00095.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00096.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00096.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00097.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00097.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00098.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/training_data/00098.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="-357">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -154,6 +75,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="john chai &lt;jc050402@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -385,23 +311,30 @@
       <workItem from="1562846484345" duration="7455000" />
       <workItem from="1562987865466" duration="1575000" />
       <workItem from="1563005326643" duration="7934000" />
-      <workItem from="1563022565618" duration="10985000" />
+      <workItem from="1563022565618" duration="13179000" />
     </task>
+    <task id="LOCAL-00001" summary="whole bunch of shit, classifier is there now, runs like dogshit though">
+      <created>1563033742641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563033742641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27949000" />
+    <option name="totallyTimeSpent" value="30143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3479491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +344,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32956153" />
       <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,10 +358,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="whole bunch of shit, classifier is there now, runs like dogshit though" />
+    <option name="LAST_COMMIT_MESSAGE" value="whole bunch of shit, classifier is there now, runs like dogshit though" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$datatoimage.coverage" NAME="datatoimage Coverage Results" MODIFIED="1563027366659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$alt_data.coverage" NAME="alt_data Coverage Results" MODIFIED="1563027571186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model.coverage" NAME="model Coverage Results" MODIFIED="1563033595741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model.coverage" NAME="model Coverage Results" MODIFIED="1563035391197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$color2bw.coverage" NAME="color2bw Coverage Results" MODIFIED="1563031584410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$test.coverage" NAME="test Coverage Results" MODIFIED="1562851858636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -466,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="-357">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
