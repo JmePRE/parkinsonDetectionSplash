@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js">
+  </script>
+</head>
+<body>
+
+<script>
+  const camera = () => {
+    const navigator = document.querySelector('#navigator');
+    navigator.resetToPage('/camera.html');
+  }
+  </script>
+
+    <ons-navigator id="navigator">
+      <ons-page id="home">
+          <div style="text-align: center; margin-top: 200px">
+              <ons-button onclick="camera()">Handwriting</ons-button> <br><br>
+              <ons-button onclick="camera()">Spiral Test</ons-button>
+            
+            
+            </div>
+
+      </ons-page>
+    </ons-navigator>
+
+<!--
+    <template id="camera.html">
+        <ons-page id="camera">
+            <ons-toolbar id="home-toolbar">
+                <div class="center">Home</div>
+              </ons-toolbar>
+          Hello!
+          <br>
+          <form>
+            <input type="file" accept="image/*" capture="camera">
+            <input type="submit" value="Submit">
+        </form>
+        </ons-page>
+      </template-->
+</body>
+</html>
