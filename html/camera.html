@@ -1,0 +1,53 @@
+
+        <ons-page id="camera">
+                <ons-toolbar id="home-toolbar">
+                    <div class="left">
+                        <ons-back-button></ons-back-button>
+                      </div>
+                    <div class="center">Home</div>
+                  </ons-toolbar>
+              <div style="text-align: center; padding-top: 20px; padding-left:10%; padding-right:10%; background-color: cornsilk;">
+                <h2>Camera</h2>
+                <p>Take a picture of your drawn spiral in the below format:</p> 
+                <br>
+                <img width=50% src="s1.png"/>
+                <img width=45% src="V04HE02.png"/>
+                <br>
+                <ons-card>
+                    <div style="text-align: center;">
+                    <img src="371935.png" alt="Phone camera" style="width: 50%;margin:0;">
+                    </div>
+                    <div class="title">
+                      Take a picture now or Upload an image
+                    </div>
+                    <div class="content">
+
+                        <form method="POST" action="upload.php" enctype="multipart/form-data">
+                            <input type="file" accept="image/*" capture="camera" name="fileToUpload" id="fileToUpload">
+                            <input type="submit" name="camera" value="Submit">
+                        </form>
+                      </div>
+                  </ons-card>
+
+                  <ons-card>
+                      <div style="text-align: center;">
+                      <img src="869534.png" alt="Upload file" style="width: 50%;margin:0;">
+                      </div>
+                      <div class="title">
+                        Upload an image
+                      </div>
+                      <div class="content">
+                          <form>
+                              <input type="file" accept="image/*">
+                              <input type="submit" value="Submit">
+                          </form>
+                        </div>
+                    </ons-card>
+                
+
+
+              </div>
+              <br><br>
+              
+            </ons-page>
+ 
