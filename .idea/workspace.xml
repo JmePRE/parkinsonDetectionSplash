@@ -2,7 +2,318 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7240fe5-37c1-4ac4-8b38-b9008dc138cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V01HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V02HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V03HE1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V04HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V05HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V06HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V07HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V08HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V09HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V10HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V11HE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V55HE12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V55HE13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V55HE14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V55HE15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V01PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V02PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V03PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V03PE04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V03PE07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V04PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V05PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V06PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V07PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V08PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V09PE01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V10PE03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V11PE03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V14PE03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/training_data/testing/parkinson/V15PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/color2bw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/color2bw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/datatoimage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/datatoimage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V01HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V02HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V03HE1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V04HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V05HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V06HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V07HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V08HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V09HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V10HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V11HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V55HE12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V55HE13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V55HE14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/healthy/V55HE15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V01PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V02PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V03PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V03PE04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V03PE07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V04PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V05PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V06PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V07PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V08PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V09PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V10PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V11PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V14PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/testing/parkinson/V15PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V01HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V01HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V01HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V01HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V02HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V02HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V02HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V02HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V03HE2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V03HE2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V03HE3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V03HE3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V04HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V04HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V04HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V04HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V05HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V05HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V05HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V05HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V06HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V06HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V06HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V06HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V07HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V07HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V07HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V07HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V08HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V08HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V08HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V08HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V09HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V09HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V09HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V09HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V10HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V10HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V10HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V10HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V11HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V11HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V11HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V11HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V12HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V12HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V12HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V12HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V12HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V12HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE04.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE05.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE06.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE07.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE09.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/healthy/V55HE11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/healthy/V55HE11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V01PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V01PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V01PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V01PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V02PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V02PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V02PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V02PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE05.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE06.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V03PE09.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V03PE09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V04PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V04PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V04PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V04PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V05PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V05PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V05PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V05PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V06PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V06PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V06PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V06PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V07PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V07PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V07PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V07PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V08PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V08PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V08PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V08PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V09PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V09PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V09PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V09PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V10PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V10PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V10PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V10PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V11PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V11PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V11PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V11PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V12PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V12PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V12PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V12PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V12PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V12PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V13PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V13PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V13PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V13PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V13PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V13PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V14PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V14PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V14PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V14PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V15PE02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V15PE02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/dataset/spiral/training/parkinson/V15PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/training/parkinson/V15PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/detect-parkinsons/detect_parkinsons.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/detect_parkinsons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/model_saved.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/model_saved.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V01HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V01HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V02HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V02HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V03HE1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V03HE1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V04HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V04HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V05HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V05HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V06HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V06HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V07HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V07HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V08HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V08HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V09HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V09HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V10HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V10HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V11HE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V11HE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V55HE12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V55HE12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V55HE13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V55HE13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V55HE14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V55HE14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/healthy/V55HE15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/healthy/V55HE15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V01PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V01PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V02PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V02PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V03PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V03PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V03PE04.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V03PE04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V03PE07.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V03PE07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V04PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V04PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V05PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V05PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V06PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V06PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V07PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V07PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V08PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V08PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V09PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V09PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V10PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V10PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V11PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V11PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V14PE03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V14PE03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/testing/parkinson/V15PE01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/spiral/testing/parkinson/V15PE01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V01HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V01HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V02HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V02HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V03HE2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V03HE3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V04HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V04HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V05HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V05HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V06HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V06HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V07HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V07HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V08HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V08HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V09HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V09HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V10HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V10HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V11HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V11HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V12HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V12HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V12HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/healthy/V55HE11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V01PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V01PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V02PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V02PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V03PE09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V04PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V04PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V05PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V05PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V06PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V06PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V07PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V07PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V08PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V08PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V09PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V09PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V10PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V10PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V11PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V11PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V12PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V12PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V12PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V13PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V13PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V13PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V14PE01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V14PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V15PE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training/parkinson/V15PE03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00082.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00084.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00085.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00090.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00091.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00092.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00094.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/model/training_data/00098.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +323,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Backend/model/detect_parkinsons.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-782">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#150#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,8 +347,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/color2bw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="307">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -37,15 +357,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="mock://C:\Users\user\.PyCharm2019.1\system\snapshots\splishsplashiamtrash.pstat">
-          <provider selected="true" editor-type-id="profiler-session-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/datatoimage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="307">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -56,7 +371,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/alt_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="625">
               <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -86,10 +401,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Backend/model/data.py" />
-        <option value="$PROJECT_DIR$/Backend/model/datatoimage.py" />
         <option value="$PROJECT_DIR$/Backend/model/alt_data.py" />
-        <option value="$PROJECT_DIR$/Backend/model/color2bw.py" />
         <option value="$PROJECT_DIR$/Backend/model/model.py" />
+        <option value="$PROJECT_DIR$/Backend/model/datatoimage.py" />
+        <option value="$PROJECT_DIR$/Backend/model/color2bw.py" />
+        <option value="$PROJECT_DIR$/Backend/model/detect_parkinsons.py" />
       </list>
     </option>
   </component>
@@ -103,7 +419,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,10 +437,33 @@
               <item name="Backend" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="detect-parkinsons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="detect-parkinsons" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="training_data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,6 +474,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\training_data" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model">
+  <component name="RunManager" selected="Python.detect_parkinsons">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="splishsplashiamtrash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,6 +582,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="detect_parkinsons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="splishsplashiamtrash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\TSS-Aggregation\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend/model/detect-parkinsons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\detect_parkinsons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="splishsplashiamtrash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,13 +654,15 @@
       <item itemvalue="Python.alt_data" />
       <item itemvalue="Python.model" />
       <item itemvalue="Python.color2bw" />
+      <item itemvalue="Python.detect_parkinsons" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.model" />
+        <item itemvalue="Python.detect_parkinsons" />
         <item itemvalue="Python.color2bw" />
-        <item itemvalue="Python.alt_data" />
         <item itemvalue="Python.datatoimage" />
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.alt_data" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +679,11 @@
       <workItem from="1562846484345" duration="7455000" />
       <workItem from="1562987865466" duration="1575000" />
       <workItem from="1563005326643" duration="7934000" />
-      <workItem from="1563022565618" duration="13179000" />
+      <workItem from="1563022565618" duration="13351000" />
+      <workItem from="1563095090583" duration="3474000" />
+      <workItem from="1563158975715" duration="2039000" />
+      <workItem from="1563265191630" duration="1063000" />
+      <workItem from="1563591736914" duration="4328000" />
     </task>
     <task id="LOCAL-00001" summary="whole bunch of shit, classifier is there now, runs like dogshit though">
       <created>1563033742641</created>
@@ -320,22 +692,30 @@
       <option name="project" value="LOCAL" />
       <updated>1563033742641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="whole bunch of shit, classifier is there now, runs like dogshit though">
+      <created>1563035899954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563035899954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30143000" />
+    <option name="totallyTimeSpent" value="41219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3479491" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -344,15 +724,15 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32956153" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.15884718" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.11595174" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,17 +743,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="whole bunch of shit, classifier is there now, runs like dogshit though" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$datatoimage.coverage" NAME="datatoimage Coverage Results" MODIFIED="1563027366659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$alt_data.coverage" NAME="alt_data Coverage Results" MODIFIED="1563027571186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model.coverage" NAME="model Coverage Results" MODIFIED="1563035391197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$color2bw.coverage" NAME="color2bw Coverage Results" MODIFIED="1563031584410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$datatoimage.coverage" NAME="datatoimage Coverage Results" MODIFIED="1563596402121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model.coverage" NAME="model Coverage Results" MODIFIED="1563265381821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$color2bw.coverage" NAME="color2bw Coverage Results" MODIFIED="1563596847959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$test.coverage" NAME="test Coverage Results" MODIFIED="1562851858636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$detect_parkinsons.coverage" NAME="detect_parkinsons Coverage Results" MODIFIED="1563604580573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model/detect-parkinsons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Backend/model/data.py" />
     <entry file="file://$PROJECT_DIR$/Backend/model/alt_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="625">
           <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -383,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/datatoimage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="307">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -393,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/color2bw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="307">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -403,10 +784,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/detect_parkinsons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#150#201#0" expanded="true" />
           </folding>
         </state>
       </provider>

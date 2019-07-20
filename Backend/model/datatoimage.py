@@ -60,4 +60,4 @@ for i in range(1, 99):
         else:
             op = 1
             print("parkinson's, train:", savepath[op])
-    im.save(savepath[op]+str(i).zfill(5)+"x.png", "PNG")
+    im.save("training_data/"+savepath[op]+str(i).zfill(5)+"x.png", "PNG")

@@ -28,7 +28,7 @@ def c2bwdir(dirname):
             new_image.save(dirname + filename)
 
 
-c2bwdir('testing/parkinson')
-c2bwdir('training/parkinson')
-c2bwdir('testing/healthy')
-c2bwdir('training/healthy')
+c2bwdir('training_data/testing/parkinson')
+c2bwdir('training_data/training/parkinson')
+c2bwdir('training_data/testing/healthy')
+c2bwdir('training_data/training/healthy')
