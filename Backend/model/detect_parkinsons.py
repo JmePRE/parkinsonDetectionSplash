@@ -130,10 +130,6 @@ for metric in ("acc", "sensitivity", "specificity"):
 	print("u={:.4f}, o={:.4f}".format(mean, std))
 	print("")
 
-
-
-
-'''
 # randomly select a few images and then initialize the output images
 # for the montage
 testingPaths = list(paths.list_images(testingPath))
@@ -173,4 +169,11 @@ montage = build_montages(images, (128, 128), (5, 5))[0]
 # show the output montage
 cv2.imshow("Output", montage)
 cv2.waitKey(0)
-'''
+
+
+"""ALTERNATE MODEL TIME
+
+"""
+
+
+
