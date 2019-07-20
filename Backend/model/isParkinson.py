@@ -54,12 +54,11 @@ def ip1(filenum):
     tmodel.load_weights('hgo_model.h5')
     s = np.array(features)
     l = tmodel.predict(s)
-    print(l)
-    return(l)
+    return(l[0][0])
 
 
 print(str("s"))
-ip1(1)
-ip1(2)
-ip1(3)
+print(ip1(1),
+ip1(2),
+ip1(3))
 
