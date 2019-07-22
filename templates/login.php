@@ -5,7 +5,9 @@
             const username = document.querySelector('#username').value;
             const password = document.querySelector('#password').value;
       
-            if (username === '' && password === '') {
+
+      
+            if (username === 'user1' && password === 'password') {
               // call the navigator to move to the new page
               const navigator = document.querySelector('#navigator');
               navigator.resetToPage('home.html');
@@ -14,7 +16,7 @@
             }
           };
         </script>
-      
+  
         <div style="text-align: center; margin-top: 200px">
         <p>
           <ons-input id="username" placeholder="Username" modifier="underbar"></ons-input>

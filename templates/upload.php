@@ -1,3 +1,4 @@
+
 <?php
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -24,5 +25,4 @@ if(isset($_POST["camera"])) {
 //    $uploadOk = 0;
 //}
 // Check if $uploadOk is set to 0 by an error
-
 ?>
