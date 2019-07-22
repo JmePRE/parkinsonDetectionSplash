@@ -40,7 +40,10 @@ def quantify_image(image):
 
 def ip1(filenum):
     image = cv2.imread('for_eval/'+str(filenum)+'.png')
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    try:
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    except:
+        pass
     image = cv2.resize(image, (300, 300))
 
     # threshold the image such that the drawing appears as white
@@ -55,10 +58,4 @@ def ip1(filenum):
     s = np.array(features)
     l = tmodel.predict(s)
     return(l[0][0])
-
-
-print(str("s"))
-print(ip1(1),
-ip1(2),
-ip1(3))
 
