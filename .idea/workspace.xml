@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7240fe5-37c1-4ac4-8b38-b9008dc138cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Backend/model/isParkinson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/model/isParkinson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/model/model1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flasktest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/371935.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/371936.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/869534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/V04HE02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/camera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/indexold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/kuma-point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/upload.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/color2bw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="52">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -27,8 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/datatoimage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="1">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="171" column="31" lean-forward="true" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+            <state relative-caret-position="358">
+              <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -58,15 +75,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Backend/model/model1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-952">
+              <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/model/isParkinson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="290">
               <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flasktest.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -105,6 +139,8 @@
         <option value="$PROJECT_DIR$/Backend/model/detect_parkinsons.py" />
         <option value="$PROJECT_DIR$/Backend/model/model.py" />
         <option value="$PROJECT_DIR$/Backend/model/isParkinson.py" />
+        <option value="$PROJECT_DIR$/Backend/flasktest.py" />
+        <option value="$PROJECT_DIR$/Backend/model/model1.py" />
       </list>
     </option>
   </component>
@@ -118,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,82 +167,31 @@
               <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
               <item name="Backend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="detect-parkinsons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="for_eval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="training_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="training_data" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="training_data" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="parkinson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splishsplashiamtrash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splishsplashiamtrash" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="training_data" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backend/model/for_eval" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backend/model" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\training_data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
       <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\for_eval" />
       <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\for_eval" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\training_data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isParkinson">
+  <component name="RunManager" selected="Python.model1 (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="splishsplashiamtrash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,28 +243,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backend/model/color2bw.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="datatoimage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="splishsplashiamtrash" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backend/model/datatoimage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,6 +317,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="splishsplashiamtrash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\TSS-Aggregation\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/model1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="splishsplashiamtrash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\TSS-Aggregation\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backend/model/model1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="splishsplashiamtrash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,17 +386,19 @@
     <list>
       <item itemvalue="Python.test" />
       <item itemvalue="Python.isParkinson" />
-      <item itemvalue="Python.datatoimage" />
       <item itemvalue="Python.model" />
       <item itemvalue="Python.color2bw" />
       <item itemvalue="Python.detect_parkinsons" />
+      <item itemvalue="Python.model1" />
+      <item itemvalue="Python.model1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model1 (1)" />
+        <item itemvalue="Python.model1" />
         <item itemvalue="Python.model" />
         <item itemvalue="Python.detect_parkinsons" />
         <item itemvalue="Python.color2bw" />
-        <item itemvalue="Python.datatoimage" />
       </list>
     </recent_temporary>
   </component>
@@ -411,6 +421,7 @@
       <workItem from="1563265191630" duration="1063000" />
       <workItem from="1563591736914" duration="11225000" />
       <workItem from="1563611986102" duration="4651000" />
+      <workItem from="1563774940422" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="whole bunch of shit, classifier is there now, runs like dogshit though">
       <created>1563033742641</created>
@@ -430,21 +441,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52767000" />
+    <option name="totallyTimeSpent" value="56492000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3479491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.33097595" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -475,6 +495,8 @@
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$isParkinson.coverage" NAME="isParkinson Coverage Results" MODIFIED="1563616032684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$color2bw.coverage" NAME="color2bw Coverage Results" MODIFIED="1563596847959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$test.coverage" NAME="test Coverage Results" MODIFIED="1562851858636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model1.coverage" NAME="model1 Coverage Results" MODIFIED="1563803592669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$model1__1_.coverage" NAME="model1 (1) Coverage Results" MODIFIED="1563804072298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$detect_parkinsons.coverage" NAME="detect_parkinsons Coverage Results" MODIFIED="1563604580573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model/detect-parkinsons" />
   </component>
   <component name="editorHistoryManager">
@@ -496,33 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/model/color2bw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/model/datatoimage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/model/alt_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/hgo_model.h5">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -537,16 +532,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/training_data/training/parkinson/00002x.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="171" column="31" lean-forward="true" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/for_eval/2.png">
       <provider selected="true" editor-type-id="images" />
@@ -569,12 +554,65 @@
     <entry file="file://$PROJECT_DIR$/Backend/model/training_data/testing/healthy/V03HE1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/alt_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flasktest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/datatoimage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/color2bw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Backend/model/isParkinson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="290">
           <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/model/model1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
