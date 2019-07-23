@@ -3,6 +3,7 @@ from keras.models import Sequential
 from skimage import feature
 from keras.layers import Activation, Dropout, Flatten, Dense, BatchNormalization
 from keras import backend as K
+import tensorflow as tf
 import cv2
 import os
 import numpy as np
@@ -39,23 +40,30 @@ def quantify_image(image):
 
 
 def ip1(filenum):
-    image = cv2.imread('for_eval/'+str(filenum)+'.png')
-    try:
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    except:
-        pass
+    filename = str(filenum)
+    print(filename)
+    image = cv2.imread(filename, 0)
+    if image is None:
+        print("lolfuck")
     image = cv2.resize(image, (300, 300))
 
     # threshold the image such that the drawing appears as white
     # on a black background
     image = cv2.threshold(image, 0, 255,
                           cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
-
+    # cv2.imshow('i', image)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     # quantify the image
     features = quantify_image(image)
     tmodel = create_model()
-    tmodel.load_weights('hgo_model.h5')
+    tmodel.load_weights('model/hgo_model.h5')
     s = np.array(features)
-    l = tmodel.predict(s)
+
+    global graph
+    graph = tf.get_default_graph()
+    with graph.as_default():
+        l = tmodel.predict(s)
     return(l[0][0])
 
+# print(ip1('375px-568Trubbish.png'))

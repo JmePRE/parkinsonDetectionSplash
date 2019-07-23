@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request
 
-from model.isParkinson import ip1
-import os
+import model.isParkinson
+import os, time
 from werkzeug import secure_filename
+import tensorflow as tf
 app = Flask(__name__)
 
 
@@ -20,8 +21,8 @@ def upload_image():
 
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-
-        variable = ip1(filename)
+        print('fn'+filename)
+        variable = model.isParkinson.ip1('model\\for_eval\\'+filename)
         return render_template('results.html', value=variable, value2=variable)
 
 @app.route('/login.php')
