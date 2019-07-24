@@ -27,8 +27,9 @@ def c2bwdir(dirname):
             new_image = c2bw(dirname + filename)
             new_image.save(dirname + filename)
 
-
+'''
 c2bwdir('training_data/testing/parkinson')
 c2bwdir('training_data/training/parkinson')
 c2bwdir('training_data/testing/healthy')
 c2bwdir('training_data/training/healthy')
+'''

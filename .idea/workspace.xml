@@ -4,9 +4,7 @@
     <list default="true" id="d7240fe5-37c1-4ac4-8b38-b9008dc138cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/for_eval/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/model/for_eval/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/for_eval/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/model/for_eval/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/for_eval/55420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/color2bw.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/color2bw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/isParkinson.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/isParkinson.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="39">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -29,38 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/isParkinson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="-403">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -69,20 +40,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/for_eval/55420.jpg">
+        <entry file="file://$PROJECT_DIR$/model/for_eval/V03HE1.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/for_eval/51336.jpg">
+        <entry file="file://$PROJECT_DIR$/model/for_eval/V55HE12.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/for_eval/00075x.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/color2bw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="226">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -93,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/datatoimage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
+            <state relative-caret-position="697">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -120,9 +96,11 @@
     <findStrings>
       <find>load_split</find>
       <find>cnnmodel</find>
+      <find>tmodel</find>
     </findStrings>
     <replaceStrings>
       <replace>tmodel</replace>
+      <replace>self.model</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +125,7 @@
         <option value="$PROJECT_DIR$/Backend/model/model1.py" />
         <option value="$PROJECT_DIR$/model/model1.py" />
         <option value="$PROJECT_DIR$/templates/results.html" />
+        <option value="$PROJECT_DIR$/model/color2bw.py" />
         <option value="$PROJECT_DIR$/backend.py" />
         <option value="$PROJECT_DIR$/model/isParkinson.py" />
       </list>
@@ -162,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,6 +163,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,16 +176,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash\model" />
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash" />
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
-      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\training_data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
       <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\for_eval" />
       <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\for_eval" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\model\for_eval" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\model" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model" />
+      <recent name="D:\John Chai\Documents\splishsplashiamtrash\Backend\model\training_data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +297,8 @@
       <workItem from="1563774940422" duration="3725000" />
       <workItem from="1563803995236" duration="3286000" />
       <workItem from="1563870926018" duration="3934000" />
-      <workItem from="1563890941963" duration="2549000" />
+      <workItem from="1563890941963" duration="2780000" />
+      <workItem from="1563967673278" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="whole bunch of shit, classifier is there now, runs like dogshit though">
       <created>1563033742641</created>
@@ -337,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66261000" />
+    <option name="totallyTimeSpent" value="69436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,9 +331,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21782842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,13 +369,13 @@
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$alt_data.coverage" NAME="alt_data Coverage Results" MODIFIED="1563027571186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$datatoimage.coverage" NAME="datatoimage Coverage Results" MODIFIED="1563596402121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$model.coverage" NAME="model Coverage Results" MODIFIED="1563615356157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$isParkinson.coverage" NAME="isParkinson Coverage Results" MODIFIED="1563875660318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$isParkinson.coverage" NAME="isParkinson Coverage Results" MODIFIED="1563968358109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$color2bw.coverage" NAME="color2bw Coverage Results" MODIFIED="1563596847959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$isParkinson__1_.coverage" NAME="isParkinson (1) Coverage Results" MODIFIED="1563872252975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$test.coverage" NAME="test Coverage Results" MODIFIED="1562851858636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$model1.coverage" NAME="model1 Coverage Results" MODIFIED="1563803592669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$model1__1_.coverage" NAME="model1 (1) Coverage Results" MODIFIED="1563804072298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
-    <SUITE FILE_PATH="coverage/splishsplashiamtrash$backend.coverage" NAME="backend Coverage Results" MODIFIED="1563893501058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/splishsplashiamtrash$backend.coverage" NAME="backend Coverage Results" MODIFIED="1563969512349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/splishsplashiamtrash$detect_parkinsons.coverage" NAME="detect_parkinsons Coverage Results" MODIFIED="1563604580573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/model/detect-parkinsons" />
   </component>
   <component name="editorHistoryManager">
@@ -511,22 +491,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flasktest.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/model/for_eval/55420.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/color2bw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/model/for_eval/51336.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/model/datatoimage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
+        <state relative-caret-position="697">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -534,26 +507,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flasktest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/for_eval/V55HE12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/for_eval/00075x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/color2bw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/for_eval/V03HE1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="39">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/for_eval/55420.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/for_eval/51336.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/isParkinson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="-403">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>

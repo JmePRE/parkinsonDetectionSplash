@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 UPLOAD_FOLDER = 'model\\for_eval'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
+nn = model.isParkinson.Neural()
 @app.route('/')
 def load_webpage():
     return render_template('index.html')
@@ -22,7 +22,7 @@ def upload_image():
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         print('fn'+filename)
-        variable = model.isParkinson.ip1('model\\for_eval\\'+filename)
+        variable = nn.ip1('model\\for_eval\\'+filename)
         return render_template('results.html', value=variable, value2=variable)
 
 @app.route('/login.php')
