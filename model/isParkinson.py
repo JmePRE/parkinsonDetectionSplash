@@ -72,9 +72,9 @@ class Neural:
         # on a black background
         image = cv2.threshold(image, 0, 255,
                               cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
-        cv2.imshow('i', image)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow('i', image)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
         # quantify the image
         features = self.quantify_image(image)
         s = np.array(features)
