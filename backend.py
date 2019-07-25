@@ -4,7 +4,7 @@ import model.isParkinson
 import os, time
 from werkzeug import secure_filename
 import tensorflow as tf
-app = Flask(__name__)
+app = Flask(__name__, )
 
 
 UPLOAD_FOLDER = 'model\\for_eval'
