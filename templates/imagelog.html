@@ -3,6 +3,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
+
+<script>
+
+  const openMenu = () => {
+    document.querySelector('#menu').open();
+  };
+
+  const loadPage = (page) => {
+  document.querySelector('#menu').close();
+  document.querySelector('#navigator').bringPageTop(page, { animation: 'fade' });
+  };
+  </script>
     
     <ons-toolbar
      id="home-toolbar">
@@ -120,7 +132,7 @@
             var createEntry = function (image) {
               console.log("4");
               return ons.createElement(`
-                  <ons-list-item>
+                  <ons-list-item tappable onclick="loadPage('results.html')">
                     <div class="left">
                       <img class="list-item__thumbnail" src="${image.url}">
                     </div>
