@@ -1,0 +1,227 @@
+
+<ons-page id="imagelog">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+<script>
+
+  const openMenu = () => {
+    document.querySelector('#menu').open();
+  };
+
+  const loadPage = (page) => {
+  document.querySelector('#menu').close();
+  document.querySelector('#navigator').bringPageTop(page, { animation: 'fade' });
+  };
+  </script>
+    
+    <ons-toolbar
+     id="home-toolbar">
+                <div class="left">
+                    <ons-back-button></ons-back-button>
+                  </div>
+                <div class="center">Image Log</div>
+              </ons-toolbar>
+
+              <ons-list id="image-list">
+                  
+                     
+              </ons-list>
+
+        <script>
+          ons.getScriptPage().onInit = function () {
+            this.querySelector('ons-toolbar div.center').textContent = this.data.title;
+            var pullHook = document.getElementById('pull-hook');
+            var icon = document.getElementById('pull-hook-icon');
+            pullHook.addEventListener('changestate', function (event) {
+              switch (event.state) {
+                case 'initial':
+                  icon.setAttribute('icon', 'fa-arrow-down');
+                  icon.removeAttribute('rotate');
+                  icon.removeAttribute('spin');
+                  break;
+                case 'preaction':
+                  icon.setAttribute('icon', 'fa-arrow-down');
+                  icon.setAttribute('rotate', '180');
+                  icon.removeAttribute('spin');
+                  break;
+                case 'action':
+                  icon.setAttribute('icon', 'fa-spinner');
+                  icon.removeAttribute('rotate');
+                  icon.setAttribute('spin', true);
+                  break;
+              }
+            });
+            
+            window.names=[];
+            window.urls=[];
+
+            var getFileName = function () {
+              var names = [];
+              console.log("getting file names");
+              $.ajax({
+                       type: 'GET', 
+                       dataType: 'html',
+                       async: false,
+                       headers: { 'api-key':'myKey' },
+                       url: "../model/for_eval/",
+                       success: function(data){
+                         console.log("hi");
+                         console.log($(data));
+                         $(data).find("a:contains(png)").each(function(){
+                             // will loop through 
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpg)").each(function(){
+                             // will loop through 
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpeg)").each(function(){
+                             // will loop through 
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
+                         
+                         });
+                         console.log(window.names);
+                       }
+                     });
+                     return (names);
+            }
+
+
+
+            var getFileUrl = function() {
+              var urls = [];
+              $.ajax({
+                       type: 'GET', 
+                       dataType: 'html',
+                       headers: { 'api-key':'myKey' },
+                       async: false,
+                       url: "../model/for_eval/",
+                       success: function(data){
+                         $(data).find("a:contains(png)").each(function(){
+                             // will loop through 
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpg)").each(function(){
+                             // will loop through 
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpeg)").each(function(){
+                             // will loop through 
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
+                         });
+                       }
+                     });
+                     console.log(window.urls);
+                     return (urls);
+            };
+
+            var createEntry = function (image) {
+              console.log("4");
+              return ons.createElement(`
+                  <ons-list-item tappable onclick="loadPage('results.html')">
+                    <div class="left">
+                      <img class="list-item__thumbnail" src="${image.url}">
+                    </div>
+                    <div class="center">${image.name}</div>
+                  </ons-list-item>
+                `
+              );
+            };
+
+            var getImage = function (namestring, urlstring) {
+              console.log("3");
+              return {
+                name: namestring,
+                url: urlstring
+              };
+            };
+
+            var getData = function (namearray, urlarray) {
+              console.log(namearray);
+              console.log("2");
+              const data = [];
+              for (var i = 0; i < namearray.length; i++) {
+                var image = getImage(namearray[i], urlarray[i]);
+                data.push(image);
+              }
+              console.log(data);
+              return data; }
+
+              var namearray = getFileName();
+              var urlarray = getFileUrl();
+              console.log(namearray);
+              console.log(urlarray);
+            var imagelist = getData(window.names, window.urls);
+            console.log(imagelist);
+            for (image of imagelist) {
+              var entry = createEntry(image);
+              document.getElementById('image-list').appendChild(entry);
+            };
+            
+
+
+
+
+////////////////////////////////////////////////////REFERENCE
+            /*
+          var getRandomName = function () {
+              const names = ['Oscar', 'Max', 'Tiger', 'Sam', 'Misty', 'Simba', 'Coco', 'Chloe', 'Lucy', 'Missy'];
+              return names[Math.floor(Math.random() * names.length)];
+            };
+            var getRandomUrl = function () {
+              const width = 40 + Math.floor(20 * Math.random());
+              const height = 40 + Math.floor(20 * Math.random());
+              return `https://placekitten.com/g/${width}/${height}`;
+            };
+            var getRandomKitten = function () {
+              return {
+                name: getRandomName(),
+                url: getRandomUrl()
+              };
+            };
+            var getRandomData = function () {
+              const data = [];
+              for (var i = 0; i < 8; i++) {
+                data.push(getRandomKitten());
+              }
+              return data;
+            };
+            var createKitten = function (kitten) {
+              return ons.createElement(`
+                  <ons-list-item>
+                    <div class="left">
+                      <img class="list-item__thumbnail" src="${kitten.url}">
+                    </div>
+                    <div class="center">${kitten.name}</div>
+                  </ons-list-item>
+                `
+              );
+            };
+            var kittens = getRandomData();
+            for (kitty of kittens) {
+              var kitten = createKitten(kitty);
+              document.getElementById('kitten-list').appendChild(kitten);
+            };
+            pullHook.onAction = function (done) {
+              setTimeout(function() {
+                document.getElementById('kitten-list').appendChild(createKitten(getRandomKitten()));
+                done();
+              }, 400);
+            } */
+          }; 
+        </script>
+    
+
+      </ons-page>
+ 
