@@ -1,15 +1,24 @@
 
-<ons-page id="result">
-    <script>
+<ons-page id="imagelog">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
-    <ons-toolbar id="home-toolbar">
+    
+    <ons-toolbar
+     id="home-toolbar">
                 <div class="left">
                     <ons-back-button></ons-back-button>
                   </div>
                 <div class="center">Image Log</div>
               </ons-toolbar>
 
-              <ons-list id="pokemon-list">
+              <ons-list id="image-list">
+                  
+                     
+                     <ons-pull-hook id="pull-hook" threshold-height="120px">
+                      <ons-icon id="pull-hook-icon" size="22px" class="pull-hook-content" icon="fa-arrow-down"></ons-icon>
+                    </ons-pull-hook>
+                     
                 <ons-list-item>bulbasaur</ons-list-item>
                 <ons-list-item>charmander</ons-list-item>
                 <ons-list-item>squirtle</ons-list-item>
@@ -17,6 +26,167 @@
                 <ons-list-item>trubbish</ons-list-item>
               </ons-list>
 
+        <script>
+          ons.getScriptPage().onInit = function () {
+            this.querySelector('ons-toolbar div.center').textContent = this.data.title;
+            var pullHook = document.getElementById('pull-hook');
+            var icon = document.getElementById('pull-hook-icon');
+            pullHook.addEventListener('changestate', function (event) {
+              switch (event.state) {
+                case 'initial':
+                  icon.setAttribute('icon', 'fa-arrow-down');
+                  icon.removeAttribute('rotate');
+                  icon.removeAttribute('spin');
+                  break;
+                case 'preaction':
+                  icon.setAttribute('icon', 'fa-arrow-down');
+                  icon.setAttribute('rotate', '180');
+                  icon.removeAttribute('spin');
+                  break;
+                case 'action':
+                  icon.setAttribute('icon', 'fa-spinner');
+                  icon.removeAttribute('rotate');
+                  icon.setAttribute('spin', true);
+                  break;
+              }
+            });
+            
+
+            var getFileName = function () {
+              const names = [];
+              $.ajax({
+                       type: 'GET', 
+                       dataType: 'json',
+                       contentType: 'json',
+                       headers: { 'api-key':'myKey' },
+                       url: "/uploads/",
+                       success: function(data){
+                         $(data).find("td > a").each(function(){
+                             // will loop through 
+                             alert("Found a file: " + $(this).attr("href"));
+                             names.push($(this).attr("href"));
+                         });
+                       }
+                     });
+              return names;
+            }
+
+            var getFileUrl = function() {
+              const urls = [];
+              $.ajax({
+                       type: 'GET', 
+                       dataType: 'json',
+                       contentType: 'json',
+                       headers: { 'api-key':'myKey' },
+                       url: "/uploads/",
+                       success: function(data){
+                         $(data).find("td > a").each(function(){
+                             // will loop through 
+                             alert("Found a file: " + $(this).attr("href"));
+                             urls.push("/uploads/" + $(this).attr("href"));
+                         });
+                       }
+                     });
+                  return urls;
+            }
+
+            var createEntry = function (image) {
+              return ons.createElement(`
+                  <ons-list-item>
+                    <div class="left">
+                      <img class="list-item__thumbnail" src="${url}">
+                    </div>
+                    <div class="center">${name}</div>
+                  </ons-list-item>
+                `
+              );
+            };
+
+            var getImage = function (namestring, urlstring) {
+              return {
+                name: namestring,
+                url: urlstring
+              };
+            };
+
+            var getData = function (namearray, urlarray) {
+              const data = [];
+              for (var i = 0; i < namearray.length; i++) {
+                var image = getImage(namearray[i], urlarray[i]);
+                data.push(image);
+              }
+              return data; }
 
 
-    </ons-page>
+            var imagelist = getData(getFileName(), getFileUrl());
+            for (image of imagelist) {
+              var entry = createEntry(image);
+              document.getElementById('image-list').appendChild(entry);
+            };
+            pullHook.onAction = function (done) {
+              setTimeout(function() {
+                document.getElementById('image-list').appendChild(createEntry(getData(getFileName(), getFileUrl())));
+                done();
+              }, 400);
+            };
+
+
+
+
+////////////////////////////////////////////////////REFERENCE
+            /*
+          var getRandomName = function () {
+              const names = ['Oscar', 'Max', 'Tiger', 'Sam', 'Misty', 'Simba', 'Coco', 'Chloe', 'Lucy', 'Missy'];
+              return names[Math.floor(Math.random() * names.length)];
+            };
+            var getRandomUrl = function () {
+              const width = 40 + Math.floor(20 * Math.random());
+              const height = 40 + Math.floor(20 * Math.random());
+              return `https://placekitten.com/g/${width}/${height}`;
+            };
+            var getRandomKitten = function () {
+              return {
+                name: getRandomName(),
+                url: getRandomUrl()
+              };
+            };
+            var getRandomData = function () {
+              const data = [];
+              for (var i = 0; i < 8; i++) {
+                data.push(getRandomKitten());
+              }
+              return data;
+            };
+            var createKitten = function (kitten) {
+              return ons.createElement(`
+                  <ons-list-item>
+                    <div class="left">
+                      <img class="list-item__thumbnail" src="${kitten.url}">
+                    </div>
+                    <div class="center">${kitten.name}</div>
+                  </ons-list-item>
+                `
+              );
+            };
+            var kittens = getRandomData();
+            for (kitty of kittens) {
+              var kitten = createKitten(kitty);
+              document.getElementById('kitten-list').appendChild(kitten);
+            };
+            pullHook.onAction = function (done) {
+              setTimeout(function() {
+                document.getElementById('kitten-list').appendChild(createKitten(getRandomKitten()));
+                done();
+              }, 400);
+            } */
+          }; 
+        </script>
+    
+        <style>
+          .pull-hook-content {
+            color: #666;
+            transition: transform .25s ease-in-out;
+          }
+        </style>
+      </ons-page>
+ 

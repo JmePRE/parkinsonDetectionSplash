@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js">
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -28,21 +29,19 @@
               <ons-list>
                 <ons-list-header>Analysis (picture)</ons-list-header>
                 <ons-list-item onclick="loadPage('camera.html')" tappable>
-                  Handwriting
-                </ons-list-item>
-                <ons-list-item onclick="loadPage('camera.html')" tappable>
                     Spiral Test
                 </ons-list-item>
                 <ons-list-header>Admin</ons-list-header>
-                <ons-list-item tappable>Image log</ons-list-item>
-                <ons-list-item tappable>User preferences</ons-list-item>
+                <ons-list-item onclick="loadPage('imagelog.html')" tappable>Image log</ons-list-item>
+                <ons-list-item tappable onclick="loadPage('parkinsons.html')">About Parkinson's</ons-list-item>
+                <ons-list-item tappable onclick="loadPage('about.html')">About the app</ons-list-item>
               </ons-list>
             </ons-page>
           </ons-splitter-side>
       
         <!-- Everything not in the side menu -->
         <ons-splitter-content>
-          <ons-navigator id="navigator" page="login.php">
+          <ons-navigator id="navigator" page="login.html">
 
           </ons-navigator>
         </ons-splitter-content>
