@@ -4,7 +4,7 @@ import model.isParkinson
 import os, time
 from werkzeug import secure_filename
 import tensorflow as tf
-app = Flask(__name__, )
+app = Flask(__name__)
 
 
 UPLOAD_FOLDER = 'model\\for_eval'
@@ -46,4 +46,4 @@ def imagelog():
     return render_template('imagelog.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0') #run app in debug mode on port 5000
+    app.run(port=5000) #run app in debug mode on port 5000
