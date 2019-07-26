@@ -43,13 +43,16 @@ def camera():
 
 @app.route('/imagelog.html')
 def imagelog():
+    return render_template('imagelog.html')
+    
+@app.route('/image')
+def image_display():
     if (request.method.lower() == 'post':
         file = request.form['fileName']
         
         variable = nn.ip1('model\\for_eval\\'+file)
         
         
-    return render_template('imagelog.html', value='model\\for_eval\\'+file, value2=variable)
-
+    return render_template('result.html', value='model\\for_eval\\'+file, value2=variable)
 if __name__ == '__main__':
     app.run(host='0.0.0.0') #run app in debug mode on port 5000
