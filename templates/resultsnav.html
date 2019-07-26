@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<script>
+
+  const openMenu = () => {
+    document.querySelector('#menu').open();
+  };
+
+  const loadPage = (page) => {
+  document.querySelector('#menu').close();
+  document.querySelector('#navigator').bringPageTop(page, { animation: 'fade' });
+  };
+  </script>
+
+
+    <ons-splitter>
+        <!-- The side menu -->
+        <ons-splitter-side id="menu" collapse>
+            <ons-page>
+              <ons-list>
+                <ons-list-header>Analysis (picture)</ons-list-header>
+                <ons-list-item onclick="loadPage('camera.html')" tappable>
+                    Spiral Test
+                </ons-list-item>
+                <ons-list-header>Admin</ons-list-header>
+                <ons-list-item onclick="loadPage('imagelog.html')" tappable>Image log</ons-list-item>
+                <ons-list-item tappable onclick="loadPage('parkinsons.html')">About Parkinson's</ons-list-item>
+                <ons-list-item tappable onclick="loadPage('about.html')">About the app</ons-list-item>
+              </ons-list>
+            </ons-page>
+          </ons-splitter-side>
+      
+        <!-- Everything not in the side menu -->
+        <ons-splitter-content>
+          <ons-navigator id="navigator" page="result2.html">
+
+          </ons-navigator>
+        </ons-splitter-content>
+      </ons-splitter>
+
+      <template id="result2.html">
+      <ons-page id="result">
+        <script>
+        </script>
+        <ons-toolbar id="home-toolbar">
+                    <div class="left">
+                        <ons-toolbar-button onclick="window.location = 'index.html'">
+                            <ons-icon
+                            icon="ion-navicon, material:md-menu">
+                          </ons-icon>
+                        <!--ons-button onclick="window.location = 'index.html'"></ons-button-->
+                      </div>
+                    <div class="center">Results</div>
+                  </ons-toolbar>
+              <div style="text-align: center; padding-top: 20px; padding-left:10%; padding-right:10%; background-color: cornsilk;">
+      
+                  <ons-card>
+                          <div style="text-align: center;">
+                            <img src="{{ image }}" alt="Your submitted image" style="width: 50%;margin:0;">
+                          </div>
+                          <div class="title">
+                            Results
+                          </div>
+                          <div class="content">
+                              <div class="meter">
+                                <span style="width: 25%"></span>
+                              </div>
+                              <h4>Test for Parkinson's: </h4>
+                                <h2 name="value" id="value" value="">{{ value2 }}</h2>
+                                <h2>%</h2>
+                                <h4>positive</h4>
+                                <br>
+                                If your value is above 70%, we advise you to run more tests, or check for more symptoms of Parkinson'
+                                <br>If possible, consult a professional
+
+                            </div>
+                        </ons-card>
+                </div>
+      
+      </ons-page>
+    </template>
+
+
+
+</body>
+</html>
