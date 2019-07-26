@@ -18,12 +18,6 @@
                      <ons-pull-hook id="pull-hook" threshold-height="120px">
                       <ons-icon id="pull-hook-icon" size="22px" class="pull-hook-content" icon="fa-arrow-down"></ons-icon>
                     </ons-pull-hook>
-                     
-                <ons-list-item>bulbasaur</ons-list-item>
-                <ons-list-item>charmander</ons-list-item>
-                <ons-list-item>squirtle</ons-list-item>
-                <ons-list-item>pikachu</ons-list-item>
-                <ons-list-item>trubbish</ons-list-item>
               </ons-list>
 
         <script>
@@ -51,58 +45,93 @@
               }
             });
             
+            window.names=[];
+            window.urls=[];
 
             var getFileName = function () {
-              const names = [];
+              var names = [];
+              console.log("getting file names");
               $.ajax({
                        type: 'GET', 
-                       dataType: 'json',
-                       contentType: 'json',
+                       dataType: 'html',
+                       async: false,
                        headers: { 'api-key':'myKey' },
                        url: "/uploads/",
                        success: function(data){
-                         $(data).find("td > a").each(function(){
+                         console.log("hi");
+                         console.log($(data));
+                         $(data).find("a:contains(png)").each(function(){
                              // will loop through 
-                             alert("Found a file: " + $(this).attr("href"));
-                             names.push($(this).attr("href"));
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
                          });
+                         $(data).find("a:contains(jpg)").each(function(){
+                             // will loop through 
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpeg)").each(function(){
+                             // will loop through 
+                             window.names.push($(this).attr("href"));
+                             console.log($(this).attr("href"));
+                         
+                         });
+                         console.log(window.names);
                        }
                      });
-              return names;
+                     return (names);
             }
+
+
 
             var getFileUrl = function() {
-              const urls = [];
+              var urls = [];
               $.ajax({
                        type: 'GET', 
-                       dataType: 'json',
-                       contentType: 'json',
+                       dataType: 'html',
                        headers: { 'api-key':'myKey' },
+                       async: false,
                        url: "/uploads/",
                        success: function(data){
-                         $(data).find("td > a").each(function(){
+                         $(data).find("a:contains(png)").each(function(){
                              // will loop through 
-                             alert("Found a file: " + $(this).attr("href"));
-                             urls.push("/uploads/" + $(this).attr("href"));
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpg)").each(function(){
+                             // will loop through 
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
+                         });
+                         $(data).find("a:contains(jpeg)").each(function(){
+                             // will loop through 
+                             //alert("Found a file: " + $(this).attr("href"));
+                             window.urls.push("/uploads/" + $(this).attr("href"));
+                             console.log("/uploads/" + $(this).attr("href"));
                          });
                        }
                      });
-                  return urls;
-            }
+                     console.log(window.urls);
+                     return (urls);
+            };
 
             var createEntry = function (image) {
+              console.log("4");
               return ons.createElement(`
                   <ons-list-item>
                     <div class="left">
-                      <img class="list-item__thumbnail" src="${url}">
+                      <img class="list-item__thumbnail" src="${image.url}">
                     </div>
-                    <div class="center">${name}</div>
+                    <div class="center">${image.name}</div>
                   </ons-list-item>
                 `
               );
             };
 
             var getImage = function (namestring, urlstring) {
+              console.log("3");
               return {
                 name: namestring,
                 url: urlstring
@@ -110,15 +139,22 @@
             };
 
             var getData = function (namearray, urlarray) {
+              console.log(namearray);
+              console.log("2");
               const data = [];
               for (var i = 0; i < namearray.length; i++) {
                 var image = getImage(namearray[i], urlarray[i]);
                 data.push(image);
               }
+              console.log(data);
               return data; }
 
-
-            var imagelist = getData(getFileName(), getFileUrl());
+              var namearray = getFileName();
+              var urlarray = getFileUrl();
+              console.log(namearray);
+              console.log(urlarray);
+            var imagelist = getData(window.names, window.urls);
+            console.log(imagelist);
             for (image of imagelist) {
               var entry = createEntry(image);
               document.getElementById('image-list').appendChild(entry);
