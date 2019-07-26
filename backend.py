@@ -23,7 +23,7 @@ def upload_image():
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         print('fn'+filename)
         variable = nn.ip1('model\\for_eval\\'+filename)
-        return render_template('results.html', value=variable, value2=variable)
+        return render_template('resultsnav.html', value=variable, value2=variable)
 '''
 @app.route('/login.php')
 def login():
@@ -33,9 +33,9 @@ def login():
 def home():
     return render_template('home.html')
 
-@app.route('/results.html')
+@app.route('/resultsnav.html')
 def results():
-    return render_template('results.html')
+    return render_template('resultsnav.html')
 
 @app.route('/camera.html')
 def camera():
@@ -53,7 +53,7 @@ def image_display():
         variable = nn.ip1('model\\for_eval\\'+file)
         
         
-    return render_template('result.html', value='model\\for_eval\\'+file, value2=variable)
+    return render_template('resultnav.html', value='model\\for_eval\\'+file, value2=variable)
         
 @app.route('/parkinsons.html')
 def parkinsons():
