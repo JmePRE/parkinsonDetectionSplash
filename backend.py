@@ -24,11 +24,11 @@ def upload_image():
         print('fn'+filename)
         variable = nn.ip1('model\\for_eval\\'+filename)
         return render_template('results.html', value=variable, value2=variable)
-
+'''
 @app.route('/login.php')
 def login():
     return render_template('login.php')
-
+'''
 @app.route('/home.html')
 def home():
     return render_template('home.html')
@@ -47,7 +47,7 @@ def imagelog():
     
 @app.route('/image')
 def image_display():
-    if (request.method.lower() == 'post':
+    if (request.method.lower() == 'post'):
         file = request.form['fileName']
         
         variable = nn.ip1('model\\for_eval\\'+file)
