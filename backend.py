@@ -23,7 +23,7 @@ def upload_image():
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         print('fn'+filename)
         variable = nn.ip1('model\\for_eval\\'+filename)
-        return render_template('resultsnav.html', value=variable, value2=variable)
+        return render_template('resultsnav.html', image='model/for_eval/'+filename, value=variable, value2=variable)
 '''
 @app.route('/login.php')
 def login():
