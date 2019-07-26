@@ -54,6 +54,10 @@ def image_display():
         
         
     return render_template('result.html', value='model\\for_eval\\'+file, value2=variable)
+        
+@app.route('/parkinsons.html')
+def parkinsons():
+    return render_template('parkinsons.html')
 if __name__ == '__main__':
 
     app.run(port=5000) #run app in debug mode on port 5000
