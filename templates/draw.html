@@ -1,0 +1,68 @@
+
+        <ons-page id="draw">
+                <ons-toolbar id="home-toolbar">
+                    <div class="left">
+                        <ons-back-button></ons-back-button>
+                      </div>
+                    <div class="center">Camera</div>
+                  </ons-toolbar>
+              <div style="text-align: center; padding-top: 20px; padding-left:10%; padding-right:10%; background-color: cornsilk;">
+                <h2>Camera</h2>
+                <p>Draw your spiral following the image below</p> 
+                <br>
+                <img width=50% src="static/s1.png"/>
+                <img width=45% src="static/V04HE02.png"/>
+                <br>
+                <ons-card>
+                    <div style="text-align: center;">
+                    <img src="static/869534.png" alt="Phone camera" style="width: 50%;margin:0;">
+                    </div>
+                    <div class="title">
+                      Draw in the following toolbox
+                    </div>
+
+                                    <!-- stylesheet -->
+                
+                    <!-- where the widget goes. you can do CSS to it. -->
+                    <!-- note: as of 0.4.13, you cannot use 'literally' as the class name.
+                        sorry about that. -->
+                    <div class="my-drawing" style="width:100%"></div>
+
+                    <form class="controls export">
+                        <input type="submit" data-action="export-as-png" value="Export as PNG">
+                      </form>
+
+                    <!-- kick it off -->
+                    <script>
+                        var watermarkImage = new Image();
+                        watermarkImage.src = 'V04HE02.png';
+                        LC.init(
+                            document.getElementsByClassName('my-drawing')[0],
+                            {imageURLPrefix: '/static/img',
+                            watermarkImage: watermarkImage,
+                            watermarkScale: 1  // you can scale it
+                            }
+                        );
+                    </script>
+
+                    <script>
+                        $(document).ready(function() {
+                          var lc = LC.init(document.getElementsByClassName('literally export')[0]);
+                          $('.controls.export [data-action=export-as-png]').click(function(e) {
+                            e.preventDefault();
+                            //exports to png idk where it goes tho
+                            window.open(lc.getImage().toDataURL());
+                          });
+                        });
+                      </script>
+
+                  </ons-card>
+                  
+                
+
+
+              </div>
+              <br><br>
+              
+            </ons-page>
+ 

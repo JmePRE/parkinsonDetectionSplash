@@ -6,6 +6,16 @@
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js">
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link href="literallycanvas.css" rel="stylesheet">
+
+  <!-- dependency: React.js -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-with-addons.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+
+  <!-- Literally Canvas -->
+  <script src="/js/literallycanvas.js"></script>
+
 </head>
 <body>
 
@@ -27,10 +37,12 @@
         <ons-splitter-side id="menu" collapse>
             <ons-page>
               <ons-list>
-                <ons-list-header>Analysis (picture)</ons-list-header>
+                <ons-list-header>Analysis (Spiral Test)</ons-list-header>
                 <ons-list-item onclick="loadPage('camera.html')" tappable>
-                    Spiral Test
-                </ons-list-item>
+                  Camera</ons-list-item>
+                <ons-list-item onclick="loadPage('draw.html')" tappable>Draw</ons-list-item>
+                    
+                
                 <ons-list-header>Admin</ons-list-header>
                 <ons-list-item onclick="loadPage('imagelog.html')" tappable>Image log</ons-list-item>
                 <ons-list-item tappable onclick="loadPage('parkinsons.html')">About Parkinson's</ons-list-item>
