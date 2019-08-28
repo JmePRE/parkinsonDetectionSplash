@@ -58,6 +58,12 @@ def image_display():
 @app.route('/parkinsons.html')
 def parkinsons():
     return render_template('parkinsons.html')
+
+@app.route('/draw.html')
+def draw():
+    return render_template('draw.html')
+
+
 if __name__ == '__main__':
 
     app.run(port=5000) #run app in debug mode on port 5000
