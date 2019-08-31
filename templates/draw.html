@@ -51,7 +51,7 @@
                           $('.controls.export [data-action=export-as-png]').click(function(e) {
                             e.preventDefault();
                             //exports to png idk where it goes tho
-                            $.post("/submit", lc.getImage());
+                            $.post("/submit", {fileToUpload: lc.getImage()});
                             //window.open(lc.getImage().toDataURL());
                           });
                         });
