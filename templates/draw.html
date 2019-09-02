@@ -7,12 +7,17 @@
                     <div class="center">Camera</div>
                   </ons-toolbar>
               <div style="text-align: center; padding-top: 20px; padding-left:10%; padding-right:10%; background-color: cornsilk;">
-                <h2>Camera</h2>
-                <p>Draw your spiral following the image below</p> 
-                <br>
-                <img width=50% src="static/s1.png"/>
-                <img width=45% src="static/V04HE02.png"/>
-                <br>
+                <h2>Drawing widget</h2>
+                <h3>Please use this page with a landscape, large device such as a tablet and a stylus</h3>
+                <ons-card>
+                    <div class="title">
+                       Instructions
+                      </div>
+                      <div class="content">
+                        1. Trace the spiral in the below drawing widget with the stylus. Try to keep your elbow in the air.
+                        <br>2. Upload the image when you are done.
+                        </div>
+                </ons-card>
                 <ons-card>
                     <div style="text-align: center;">
                     <img src="https://1.bp.blogspot.com/-o6syy8AoYoo/V_4cr80E2PI/AAAAAAAA-1c/Y79tctf93LEB_hAR2IhbtnJ_pMFy_GgewCLcB/s300/writing11_obaasan.png" alt="Phone camera" style="width: 50%;margin:0;">
@@ -35,7 +40,7 @@
                     <!-- kick it off -->
                     <script>
                         var watermarkImage = new Image();
-                        watermarkImage.src = 'V04HE02.png';
+                        watermarkImage.src = 'https://i.imgur.com/EJpp9a1.png';
                         LC.init(
                             document.getElementsByClassName('my-drawing')[0],
                             {imageURLPrefix: '/static/img',
